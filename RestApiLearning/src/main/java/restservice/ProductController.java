@@ -16,6 +16,7 @@ public class ProductController {
         product.setId(1);
         product.setName("Product1");
         product.setStore("Store1");
+        product.setPrice("200");
         List<Product> response = new ArrayList<>();
         response.add(product);
         return response;
